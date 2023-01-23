@@ -243,6 +243,7 @@ nav img{
 }
 .plan button:hover{
     background-color: var(--primary-opacity-color);
+    
 }
 .dp .fri{
     box-shadow: 0.5px 4px 10px 3px var(--primary-opacity-color);
@@ -255,14 +256,27 @@ nav img{
     color: var(--primary-color);
     border: solid var(--primary-color) 2px ;
     border-radius: 20px;
-    padding: 0 50%;
+    width: 40vw;
     transition: 0.4s;
+    text-align: center;
 }
 .time button:hover{
     color: white;
     background-color: var(--primary-color);
+    
 }
 
 img{
     height: 30px;
+}
+@media only screen and (max-width: 755px) {
+    .time button{
+        width: 95vw;
+    }
+}
+@media only screen and (max-width: 561px) {
+   .learn ,.fs5{
+    font-size: 11px;
+   }
+
 }
